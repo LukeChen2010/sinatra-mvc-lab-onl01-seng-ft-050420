@@ -19,4 +19,4 @@ class PigLatinizer
 end
 
 test = PigLatinizer.new
-puts test.piglatinize("big apple")
+puts test.piglatinize("apple")
