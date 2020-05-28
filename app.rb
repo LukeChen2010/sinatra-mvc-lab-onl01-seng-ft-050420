@@ -10,5 +10,7 @@ class App < Sinatra::Base
     phrase = params["user_phrase"]
     pl = PigLatinizer.new
     @pl_phrase = pl.piglatinize(phrase)
+    
+    return @pl_phrase
   end
 end
