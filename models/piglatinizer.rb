@@ -5,7 +5,7 @@ class PigLatinizer
     output = []
     
     words.each do |x|
-      
+      if x.start_with?[/aeiou/]
     end
   end
 end
