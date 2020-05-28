@@ -10,7 +10,6 @@ class PigLatinizer
     words.each do |x|
       if x.start_with?(/[aeiou]/)
         output << (x << "way")
-        puts x
       else
       end
     end
@@ -20,4 +19,4 @@ class PigLatinizer
 end
 
 test = PigLatinizer.new
-puts test.piglatinize("apple")
+puts test.piglatinize("flatiron apple")
