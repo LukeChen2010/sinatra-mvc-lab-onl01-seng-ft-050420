@@ -7,6 +7,6 @@ class App < Sinatra::Base
   end
   
   post '/piglatinize' do
-    
+    original_string = params["string"]
   end
 end
