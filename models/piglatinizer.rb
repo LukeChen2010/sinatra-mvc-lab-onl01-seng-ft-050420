@@ -8,7 +8,7 @@ class PigLatinizer
     output = []
     
     words.each do |x|
-      if x.start_with?[/aeiou/]
+      if x.start_with?(/aeiou/)
         output << (x << "way")
       else
       end
