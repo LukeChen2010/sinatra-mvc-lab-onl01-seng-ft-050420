@@ -1,5 +1,8 @@
 class PigLatinizer
   
+  def initialize
+  end
+  
   def piglatinize(phrase)
     words = phrase.split[' ']
     output = []
