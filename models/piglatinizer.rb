@@ -16,3 +16,4 @@ class PigLatinizer
 end
 
 test = PigLatinizer.new
+puts test.piglatinize()
