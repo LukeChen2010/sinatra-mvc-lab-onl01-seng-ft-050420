@@ -1,3 +1,0 @@
-class PigLatinizer
-  
-end
