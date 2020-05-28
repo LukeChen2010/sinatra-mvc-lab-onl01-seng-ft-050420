@@ -10,6 +10,9 @@ class PigLatinizer
       else
       end
     end
+    
+    return output.join(" ")
   end
 end
 
+test = PigLatinizer.new
