@@ -12,7 +12,7 @@ class PigLatinizer
         output << (x << "way")
       else
         until x.start_with?(/[aeiou]/)
-          x = x.slice[1, x.length - 1] << x.slice[0]
+          x = x[1, x.length - 1] << x[0]
         end
         output << (x << "ay")
       end
