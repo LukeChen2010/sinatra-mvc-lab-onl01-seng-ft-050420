@@ -11,7 +11,8 @@ class PigLatinizer
       if x.start_with?(/[aeiou]/)
         output << (x << "way")
       else
-        
+        until x.start_with?(/[aeiou]/)
+        end
       end
     end
     
