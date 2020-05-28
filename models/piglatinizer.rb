@@ -8,10 +8,10 @@ class PigLatinizer
     output = []
     
     words.each do |x|
-      if x.start_with?(/[aeiou]/)
+      if x.start_with?(/[aeiouAEIOU]/)
         output << (x << "way")
       else
-        until x.start_with?(/[aeiou]/)
+        until x.start_with?(/[aeiouAEIOU]/)
           x = x[1, x.length - 1] << x[0]
         end
         output << (x << "ay")
