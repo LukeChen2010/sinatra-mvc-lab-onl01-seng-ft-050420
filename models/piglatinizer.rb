@@ -1,7 +1,7 @@
 class PigLatinizer
   
   def piglatinize(phrase)
-    words = phrase.split[" "]
+    words = phrase.split[' ']
     output = []
     
     words.each do |x|
