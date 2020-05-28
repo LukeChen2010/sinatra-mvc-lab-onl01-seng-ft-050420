@@ -21,6 +21,3 @@ class PigLatinizer
     return output.join(" ")
   end
 end
-
-test = PigLatinizer.new
-puts test.piglatinize("flatiron apple")
